@@ -1,0 +1,19 @@
+{
+  "name": "discord-xd",
+  "version": "1.0.0",
+  "description": "An app for customize your Discord Client",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron . --ozone-platform=x11"
+  },
+  "author": "mgabrielgc27",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "asar": "^3.2.0"
+  },
+  "devDependencies": {
+    "electron": "^44.5.1"
+  }
+}
